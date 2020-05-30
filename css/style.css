@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: royalblue;
+}
+#header
+{
+    display: flex;
+    background-color: #000;
+    margin-bottom: 12px;
+}
+#h-article
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.ha-1{
+    width: 60%;
+    margin-left: 40px;
+}
+.ha-2
+{
+    width: 40%;
+}
+li
+{
+    width: 15%;
+    margin-top: 50px;
+}
+ul li{
+    display: inline-flex;
+    background-color: red;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 5px; 
+    border-radius: 2px;  
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+button
+{
+    background-color: slategrey;
+    border: none;
+    padding: 6px;
+}
+
+/*covid 19 start here*/
+#covidBlock
+{
+    display: flex;
+}
+#mainBlock
+{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    width: 95%;
+    height: 97px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.iconName1,.iconName2
+{
+    background-color: yellowgreen;
+    padding: 10px;
+    text-align: center;
+    margin: 9px;
+    border-radius: 10px;
+}
+.iconName3,.iconName4
+{
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    margin: 9px;
+    border-radius: 10px;
+}
+.iconName5,.iconName6
+{
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    margin: 9px;
+    border-radius: 10px;
+}
+.numstatus
+{
+    font-size: 35px;
+    padding: 10px;
+    margin-top: 12px;
+}
+
+/*covid 19 ends here*/
+
+/*weather start here*/
+#weatherBlock
+{
+    background-color: rgba(0,0,0,0.3);
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 12px;
+}
+#weatherContainer
+{
+    display: flex;
+    flex-direction: column;
+}
+#weatherHeader
+{
+    
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+        width: 32%;
+}
+.wh-h1
+{
+    font-size: 40px;
+    color: aliceblue;
+    font-family: cursive;
+}
+.inputClass
+{
+    text-align: center;
+    margin-left: 88px;
+     padding: 12px;
+    width: 55%;
+    font-size: 20px;
+    border-radius: 12px;
+    border: none;
+}
+#weatherBody
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+}
+#weatherBody-div
+{
+    display: flex;
+    flex-direction: row;
+    font-family: cursive;
+    margin: 30px;
+    color: azure;
+}
+#div1,#div2,#div3
+{
+    background-color: rgba(255,255,255,0.19);
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.div2-span1
+{
+    font-size: 80px;
+    padding: 30px;
+}
+.div3-span1,.div3-span2,.div3-span3
+{
+    font-size: 50px;
+}
+.div1-img
+{
+    margin-left: 55px;
+}
+
+/*News section start here*/
+#newsContainer
+{
+    display: flex;
+}
+img{
+    width: 228px;
+    height: 139px;
+    margin: 3px;
+}
+#sectionName
+{
+    background-color: #fff;
+    margin: 4px;
+    border-radius: 5px;
+}
+#newsSection
+{
+    background-color: rgba(255,255,255,0.19);
+    margin: 3px;
+    width: 16.5%;
+}
+.api-h1
+{
+    background-color: rgba(0,0,0,0.4);
+}
+#sectionName>div{
+    padding: 9px;
+}
+
+/*footer section start here*/
+#footer
+{
+    height: 57px;
+    background-color: black;
+    color: azure;
+    text-align: end;
+    padding-right: 32px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+}

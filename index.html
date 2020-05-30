@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News API Search</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--header section start here-->
+    <section id="header">
+        <article id="h-article">
+            <div class="ha-1">
+                <h1 style="color: aliceblue;font-size: 40px;">News API Website</h1>
+            </div>
+            <div class="ha-2">
+                <ul>
+                    <li style=" width: 18%;background-color: slategrey;"><a><button class=" btnClass"
+                                onClick="myFunc()">Covid 19
+                                Status</button></a></li>
+                    <li class="liName1"><a href="">Home</a></li>
+                    <li class="liName2"><a href="">Feature</a></li>
+                    <li class="liName3"><a href="">Pricing</a></li>
+                    <li class="liName4"><a href="">Location</a></li>
+                </ul>
+            </div>
+        </article>
+    </section>
+    <!--header section end here-->
+
+    <!--covid 19 Section start here-->
+    <section id="covidBlock"></section>
+    <!-- covid 19 section end here-->
+
+    <!--weather section start here-->
+    <section id="weatherBlock">
+        <div id="weatherContainer">
+            <div id="weatherHeader">
+                <form>
+                    <h1 class="wh-h1">Weather Information:</h1>
+                    <input type="text" id="searchCityName" class="inputClass" placeholder="Enter city Name">
+                </form>
+            </div>
+            <div id="weatherBody">
+
+            </div>
+        </div>
+    </section>
+    <!--weather section ends here-->
+
+    <!--News Section start here-->
+    <section id="newsBlock">
+        <div id="newsContainer">
+            <div id="newsSection">
+                <h1 class="api-h1">Sport News:</h1>
+                <div id="sportApi">
+
+                </div>
+            </div>
+            <div id="newsSection">
+                <h1 class="api-h1">Entertainment News:</h1>
+                <div id="entertainApi">
+
+                </div>
+            </div>
+            <div id="newsSection">
+                <h1 class="api-h1">Business News:</h1>
+                <div id="businessApi">
+
+                </div>
+            </div>
+            <div id="newsSection">
+                <h1 class="api-h1">Science News:</h1>
+                <div id="scienceApi">
+
+                </div>
+            </div>
+            <div id="newsSection">
+                <h1 class="api-h1">Health News:</h1>
+                <div id="healthApi">
+
+                </div>
+            </div>
+            <div id="newsSection">
+                <h1 class="api-h1">Technology News:</h1>
+                <div id="techApi">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--News Section start here-->
+    <!--footer Section start here-->
+    <section id="footer">
+        <span>This is News Website &copy; News API</span></section>
+    <!--footer Section start here-->
+    <script src="./js/ApiCategory.js"></script>
+    <script src="./js/weatherApi.js"></script>
+    <script src="./js/covid19.js"></script>
+</body>
+
+</html>
